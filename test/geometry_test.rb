@@ -1,5 +1,5 @@
 require 'test/unit'
-require File.expand_path(File.join(File.dirname(__FILE__), '../lib/geometry')) unless Object.const_defined?(:Geometry)
+require File.expand_path(File.join(File.dirname(__FILE__), '../lib/geometry')) unless Object.const_defined?('AttachmentFu::Geometry')
 
 class GeometryTest < Test::Unit::TestCase
   def test_should_resize
@@ -107,7 +107,7 @@ class GeometryTest < Test::Unit::TestCase
     def assert_geometry(width, height, values)
       values.each do |geo, result|
         # run twice to verify the Geometry string isn't modified after a run
-        geo = Geometry.from_s(geo)
+        geo = AttachmentFu::Geometry.from_s(geo)
         2.times { assert_equal result, [width, height] / geo }
       end
     end
