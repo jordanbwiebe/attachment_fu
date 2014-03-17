@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{transit-attachment_fu}
-  s.version = "3.2.4.2"
+  s.version = "3.2.4.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Rick Olson", "Steven Pothoven"]
@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
     amazon_s3.yml.tpl
     rackspace_cloudfiles.yml.tpl
     lib/geometry.rb
-	lib/pothoven-attachment_fu.rb
+	lib/transit-attachment_fu.rb
     lib/technoweenie/attachment_fu/backends/cloud_file_backend.rb
     lib/technoweenie/attachment_fu/backends/db_file_backend.rb
     lib/technoweenie/attachment_fu/backends/file_system_backend.rb
