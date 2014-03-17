@@ -1,8 +1,8 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{pothoven-attachment_fu}
-  s.version = "3.2.4.spatialsafe"
+  s.name = %q{transit-attachment_fu}
+  s.version = "3.2.4.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Rick Olson", "Steven Pothoven"]
